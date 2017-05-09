@@ -11,6 +11,7 @@ h2 {
 h3 {
   font: 16pt Georgia, Times New Roman, Times, serif;
   padding: 12px 0 6px 0;
+  font-style: bold;
 }
 a, a:link, a:hover, a:active, a:visited {
   color: #B3204D;
@@ -32,6 +33,7 @@ blockquote {
   font: 14pt Georgia, Times New Roman, Times, serif;
   border: 2px solid #B3204D;
   border-width: 0 2px 0 0;
+  font-style: italic;
 }
 /******** Top header ********/
 div#top {
@@ -139,6 +141,7 @@ font: 270pt Georgia, Times New Roman, Times, serif;
 color: #FFF;
 text-align: right;
 overflow: hidden;
+transition: 0.4s;
 }
 #largebox3:hover{
 height: 320px;
@@ -148,6 +151,7 @@ color: #0CA5B0;
 text-align: right;
 overflow: hidden;
 }
+
 
 div#intro1 {
   color: #0CA5B0;
